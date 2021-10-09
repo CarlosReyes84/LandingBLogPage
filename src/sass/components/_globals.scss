@@ -1,6 +1,24 @@
 *, *::after, *::before {
     box-sizing: border-box;
 }
+html {
+    font-size: 62.5%;
+}
 body {
     font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+p {
+    margin: 0;
+    font-size: 1.8rem;
+}
+h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    font-weight: 500;
 }

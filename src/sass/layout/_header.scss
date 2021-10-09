@@ -1,0 +1,110 @@
+@use '../components' as *;
+
+.header {
+    height: 55rem;
+    border-radius: 0rem 0rem 0rem 10rem;
+    position: relative;
+    background-image: url('/images/bg-pattern-intro.svg');
+    background-position: 40% 40%;
+    background-size: 150rem;
+    background-repeat: no-repeat;
+    background-color: $light-red;
+    @include desktop {
+        background-size: 300rem;
+        background-position: 40% 53%;
+    }
+    .tabs {
+        position: absolute;
+        left: 27rem;
+        top: 6rem;
+        display: flex;
+        gap: 3.5rem;
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.6rem;
+            position: relative;
+            &::after {
+                content: '';
+                display: inline-block;
+                width: 1.5rem;
+                height: 1.5rem;
+                background-image: url('/images/icon-arrow-light.svg');
+                background-position: center;
+                background-repeat: no-repeat;
+                position: absolute;
+                top: .3rem;
+                right: -1.8rem;
+            }
+        }
+        @include phone-only {
+            display: none;
+        }
+    }
+    .flex-images {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 5rem;   
+        .img-hamburger {
+            @include desktop {
+                display: none;
+            }
+        }
+        .buttons-desktop {
+            display: flex;
+            gap: 1rem;
+            input[type='button'] {
+                height: 4.2rem;
+                width: 12rem;
+                border-radius: 2rem;
+                border: none;
+                font-size: 1.6rem;
+                cursor: pointer;
+                font-weight: 700;
+            }
+            .b-1 {
+                background-color: transparent;
+                color: #fff;
+            }
+            .b-2 {
+                color: $light-red;
+            }
+            @include phone-only {
+                display: none;
+            }
+        }
+    }
+    .text-header {
+        text-align: center;
+        color: #fff;
+        margin: 8.5rem 0rem 3rem 0rem;
+        z-index: 1;
+        p {
+            margin-top: 2.5rem;
+        }
+    }
+    .buttons-header {
+        display: flex;
+        justify-content: center;
+        margin-top: 7rem;
+        gap: 1.5rem;
+        input[type="button"] {
+            height: 4.5rem;
+            width: 15rem;
+            border-radius: 2rem;
+            border: none;
+            font-size: 1.6rem;
+            font-weight: bold;
+            border: 1px solid #fff;
+            cursor: pointer;
+        }
+        .button1 {
+            color: $light-red;
+        }
+        .button2 {
+            background-color: transparent;
+            color: #fff;
+            border-color: #fff;
+        }
+    }
+}
