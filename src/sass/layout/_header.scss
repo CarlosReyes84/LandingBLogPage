@@ -4,11 +4,10 @@
     height: 55rem;
     border-radius: 0rem 0rem 0rem 10rem;
     position: relative;
-    background-image: url('/images/bg-pattern-intro.svg');
+    background-image: url('/images/bg-pattern-intro.svg'), $grandient-header;
     background-position: 40% 40%;
     background-size: 150rem;
     background-repeat: no-repeat;
-    background-color: $light-red;
     @include desktop {
         background-size: 300rem;
         background-position: 40% 53%;

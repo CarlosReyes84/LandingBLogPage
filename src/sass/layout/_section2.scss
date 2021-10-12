@@ -1,0 +1,64 @@
+@use '../components' as *;
+
+.section-2 {
+    margin-top: 6rem;
+    position: relative;
+    @include desktop {
+        margin-top: 1.5rem;
+        height: 47rem;
+    }
+    .section-2-text {
+        text-align: center;
+        color: $white;
+        margin-top: -4rem;
+        h2 {
+            font-size: 3rem;
+        }
+        p {
+            font-size: 1.5rem;
+            line-height: 2.6rem;
+        }
+        @include desktop {
+            margin: 0;
+            top: 25%;
+            position: absolute;
+            right: 35rem;
+            width: 65rem;
+            text-align: start;
+        }
+    }
+    .phone-img {
+        height: 40rem;
+        width: 100%;
+        background-image: url('/images/illustration-phones.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        @include desktop {
+            background-size: 50rem;
+            width: 50rem;
+            position: absolute;
+            height: 50rem;
+            top: -4rem;
+        }
+    }
+    .background-sec2 {
+        position: absolute;
+        height: 50rem;
+        width: 100%;
+        border-radius: 0rem 10rem 0rem 10rem;
+        top: 18rem;
+        background-color: $gradient-very-g-blue;
+        z-index: -1;
+        background-image: url('/images/bg-pattern-circles.svg');
+        background-repeat: no-repeat;
+        background-size: 50rem;
+        background-position: -7rem -15rem;
+        @include desktop {
+            top: 0;
+            height: 40rem;
+            background-position: -21rem -55rem;
+            background-size: 100rem;
+        }
+    }
+}
