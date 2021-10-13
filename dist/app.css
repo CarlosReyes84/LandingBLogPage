@@ -34,6 +34,10 @@ h2 {
   font-weight: 500;
 }
 
+h3 {
+  margin: 0;
+}
+
 .header {
   height: 55rem;
   border-radius: 0rem 0rem 0rem 10rem;
@@ -369,4 +373,69 @@ h2 {
   font-size: 1.5rem;
   line-height: 2.7rem;
   color: #4b5862;
+}
+
+.footer {
+  background-color: #25252d;
+  margin-top: 6rem;
+  border-radius: 0rem 10rem 0rem 0rem;
+  padding-bottom: 5rem;
+}
+.footer .container-footer {
+  text-align: center;
+}
+@media (min-width: 1440px) {
+  .footer .container-footer {
+    position: relative;
+  }
+}
+.footer .container-footer img {
+  margin: 6rem 0rem;
+}
+@media (min-width: 1440px) {
+  .footer .container-footer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding-top: 5rem;
+  }
+}
+.footer .container-footer .nav-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+@media (min-width: 1440px) {
+  .footer .container-footer .nav-footer {
+    flex-direction: row;
+    justify-content: center;
+    padding: 5rem;
+    gap: 30rem;
+  }
+}
+.footer .container-footer .nav-footer .nav1-footer h3 {
+  font-size: 1.9rem;
+  color: white;
+  margin-bottom: 2.5rem;
+}
+@media (min-width: 1440px) {
+  .footer .container-footer .nav-footer .nav1-footer h3 {
+    font-size: 2.1rem;
+  }
+}
+.footer .container-footer .nav-footer .nav1-footer a {
+  display: block;
+  margin-bottom: 1.6rem;
+  color: #c8c8cb;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.footer .container-footer .nav-footer .nav1-footer a:last-of-type {
+  margin: 0;
+}
+@media (min-width: 1440px) {
+  .footer .container-footer .nav-footer .nav1-footer a {
+    font-size: 1.6rem;
+  }
 }
