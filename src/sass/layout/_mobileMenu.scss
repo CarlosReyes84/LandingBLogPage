@@ -1,0 +1,20 @@
+@use '../components' as *;
+
+.header {
+    .container {
+        position: relative;
+        .mobileMenu {
+            position: absolute;
+            top: 10rem;
+            height: 0rem;
+            width: 100%;
+            border-radius: .5rem;
+            background-color: $white;
+            box-shadow: 0px 10px 5px -1px rgba(0,0,0,0.28);
+            transition: height 1s ease;
+            @include desktop {
+                display: none;
+            }
+        }
+    }
+}

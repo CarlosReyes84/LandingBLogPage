@@ -1,4 +1,4 @@
-*, *::after, *::before {
+*::after, *::before {
     box-sizing: border-box;
 }
 html {
@@ -28,4 +28,8 @@ h2 {
 }
 h3 {
     margin: 0;
+}
+.mostrar {
+    height: 45rem !important;
+    transition: height 1s ease;
 }

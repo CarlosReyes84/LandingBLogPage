@@ -45,6 +45,7 @@
         justify-content: space-between;
         padding-top: 5rem;   
         .img-hamburger {
+            cursor: pointer;
             @include desktop {
                 display: none;
             }
@@ -67,6 +68,10 @@
             }
             .b-2 {
                 color: $light-red;
+                &:hover {
+                    background-color: rgba(231, 224, 222, .2);
+                    color: #fff;
+                }
             }
             @include phone-only {
                 display: none;
@@ -94,16 +99,25 @@
             border: none;
             font-size: 1.6rem;
             font-weight: bold;
-            border: 1px solid #fff;
             cursor: pointer;
+            border: 1px solid white;
         }
         .button1 {
             color: $light-red;
+            &:hover {
+                color: $white;
+                background-color: rgba(231, 224, 222, .2);
+                border: none;
+            }
         }
         .button2 {
             background-color: transparent;
             color: #fff;
-            border-color: #fff;
+            border: 1px solid #fff;
+            &:hover {
+                background-color: $white;
+                color: $light-red;
+            }
         }
     }
 }
