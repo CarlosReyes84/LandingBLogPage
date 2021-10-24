@@ -28,8 +28,7 @@ function js() {
 }
 
 function watching() {
-    watch('src/sass/**/*.scss', minify),
+    watch('src/sass/**/*.scss', compile),
     watch('src/app.js', js)
 }
-
 exports.default = watching;
