@@ -23,7 +23,7 @@
         height: 30rem;
         background-image: url('/images/illustration-laptop-mobile.svg');
         background-position: center;
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         @include desktop {
             display: none;

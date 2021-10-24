@@ -46,7 +46,7 @@
         width: 100%;
         height: 30rem;
         background-image: url('/images/illustration-editor-mobile.svg');
-        background-size: cover;
+        background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
         @include desktop {
