@@ -7,6 +7,16 @@
         margin-top: 1.5rem;
         height: 47rem;
     }
+    .container-sec2 {
+        @include desktop {
+            display: flex;
+            padding-top: 10rem;
+            gap: 1rem;
+        }
+    }
+    .phone-img-desktop {
+        width: 40%;
+    }
     .section-2-text {
         text-align: center;
         color: $white;
@@ -20,11 +30,7 @@
         }
         @include desktop {
             margin: 0;
-            top: 25%;
-            position: absolute;
-            right: 35rem;
-            width: 65rem;
-            text-align: start;
+            width: 60%;
         }
     }
     .phone-img {
