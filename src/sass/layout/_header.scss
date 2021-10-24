@@ -18,7 +18,7 @@
         top: 6rem;
         display: flex;
         gap: 3.5rem;
-        a {
+        .a1 {
             text-decoration: none;
             color: #fff;
             font-size: 1.6rem;
@@ -36,14 +36,49 @@
                 right: -1.8rem;
             }
         }
-        @include phone-only {
-            display: none;
+        .last {
+            @include desktop {
+                position: relative;
+            }
+        }
+        .mini {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            width: 90%;
+            height: 0rem;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f3f4;
+            border-radius: .5rem;
+            overflow: hidden;
+            transition: height 1s ease;
+            @include desktop {
+                position: absolute;
+                width: 15rem;
+                top: 50px;
+                left: 180px;
+                align-items: start;
+                padding-left: 1rem;
+            }
+            a {
+                text-decoration: none;
+                color: $very-d-black-blue;
+                font-size: 1.3rem;
+                &:hover {
+                    font-weight: bold;
+                }
+            }
         }
     }
     .flex-images {
         display: flex;
         justify-content: space-between;
         padding-top: 5rem;   
+        .img-close {
+            display: none;
+            cursor: pointer;
+        }
         .img-hamburger {
             cursor: pointer;
             @include desktop {
@@ -119,5 +154,29 @@
                 color: $light-red;
             }
         }
+    }
+    .buttons-phone {
+        @include desktop {
+            display: none;
+        }
+        display: flex;
+            gap: 1rem;
+            input[type='button'] {
+                height: 4.2rem;
+                width: 12rem;
+                border-radius: 2rem;
+                border: none;
+                font-size: 1.6rem;
+                cursor: pointer;
+                font-weight: 700;
+            }
+            .b-1 {
+                background-color: transparent;
+                color: $very-d-black-blue;
+            }
+            .b-2 {
+                color: #fff;
+                background: $grandient-header;
+            }
     }
 }
