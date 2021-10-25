@@ -60,7 +60,7 @@ h3 {
   height: 55rem;
   border-radius: 0rem 0rem 0rem 10rem;
   position: relative;
-  background-image: url("./images/bg-pattern-intro.svg"), linear-gradient(to right, #ff8f70, #ff3d54);
+  background-image: url("../images/bg-pattern-intro.svg"), linear-gradient(to right, #ff8f70, #ff3d54);
   background-position: 40% 40%;
   background-size: 150rem;
   background-repeat: no-repeat;
@@ -89,7 +89,7 @@ h3 {
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
-  background-image: url("images/icon-arrow-light.svg");
+  background-image: url("../images/icon-arrow-light.svg");
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
@@ -269,7 +269,7 @@ h3 {
     color: #000;
   }
   .header .container .tabs .a1::after {
-    background-image: url("images/icon-arrow-dark.svg");
+    background-image: url("../images/icon-arrow-dark.svg");
   }
 }
 @media (min-width: 1200px) {
@@ -296,7 +296,7 @@ h3 {
   right: 0;
   height: 80rem;
   width: 40%;
-  background-image: url("images/illustration-editor-desktop.svg");
+  background-image: url("../images/illustration-editor-desktop.svg");
   background-repeat: no-repeat;
   background-size: 80rem;
 }
@@ -322,7 +322,7 @@ h3 {
 .section .img-section {
   width: 100%;
   height: 30rem;
-  background-image: url("images/illustration-editor-mobile.svg");
+  background-image: url("../images/illustration-editor-mobile.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -397,7 +397,7 @@ h3 {
 .section-2 .phone-img {
   height: 40rem;
   width: 100%;
-  background-image: url("images/illustration-phones.svg");
+  background-image: url("../images/illustration-phones.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -419,7 +419,7 @@ h3 {
   top: 18rem;
   background-color: #2c2d3f;
   z-index: -1;
-  background-image: url("images/bg-pattern-circles.svg");
+  background-image: url("../images/bg-pattern-circles.svg");
   background-repeat: no-repeat;
   background-size: 50rem;
   background-position: -7rem -15rem;
@@ -446,7 +446,7 @@ h3 {
   width: 40%;
   height: 100%;
   position: absolute;
-  background-image: url("images/illustration-laptop-desktop.svg");
+  background-image: url("../images/illustration-laptop-desktop.svg");
   background-size: 90rem;
   background-repeat: no-repeat;
   background-position: 120% 50%;
@@ -459,7 +459,7 @@ h3 {
 .section-3 .img-section3 {
   width: 100%;
   height: 30rem;
-  background-image: url("images/illustration-laptop-mobile.svg");
+  background-image: url("../images/illustration-laptop-mobile.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

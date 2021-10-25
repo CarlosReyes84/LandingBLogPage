@@ -36,7 +36,7 @@
     .phone-img {
         height: 40rem;
         width: 100%;
-        background-image: url('images/illustration-phones.svg');
+        background-image: url('../images/illustration-phones.svg');
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -56,7 +56,7 @@
         top: 18rem;
         background-color: $gradient-very-g-blue;
         z-index: -1;
-        background-image: url('images/bg-pattern-circles.svg');
+        background-image: url('../images/bg-pattern-circles.svg');
         background-repeat: no-repeat;
         background-size: 50rem;
         background-position: -7rem -15rem;

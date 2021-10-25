@@ -4,7 +4,7 @@
     height: 55rem;
     border-radius: 0rem 0rem 0rem 10rem;
     position: relative;
-    background-image: url('./images/bg-pattern-intro.svg'), $grandient-header;
+    background-image: url('../images/bg-pattern-intro.svg'), $grandient-header;
     background-position: 40% 40%;
     background-size: 150rem;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@
                 display: inline-block;
                 width: 1.5rem;
                 height: 1.5rem;
-                background-image: url('images/icon-arrow-light.svg');
+                background-image: url('../images/icon-arrow-light.svg');
                 background-position: center;
                 background-repeat: no-repeat;
                 position: absolute;
